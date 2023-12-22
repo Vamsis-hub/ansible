@@ -1,0 +1,12 @@
+- name: variable task
+  hosts: localhost
+  vars:
+   course: "devops"
+   trainer: "vamsi"
+   duration: "4hours"
+  tasks:
+  - name: task based senario
+    vars:
+     course: "devops in aws"
+    ansible.builtin.debug:
+     msg: "I am learning {{course}}, trainer will be {{trainer}}, duration will be {{duration}}"
