@@ -1,7 +1,7 @@
 - name: play-1
   hosts: local host
   tasks:
-   - name: play-1 and task-1
+  - name: play-1 and task-1
      ansible.builtin.debug:
      msg: "hello play one"
 
