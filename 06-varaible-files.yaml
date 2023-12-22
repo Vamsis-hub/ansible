@@ -1,5 +1,5 @@
 - name: varabiles in files
-  hosts: localhosts
+  hosts: localhost
   vars_files:
   - varaible.yaml
   tasks:
