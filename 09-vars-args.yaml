@@ -4,3 +4,4 @@
   - name: check variables
     ansible.builtin.debug:
       msg: "Hello {{PERSON}}, Good {{WISHES}}"
+      
