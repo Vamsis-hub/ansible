@@ -4,4 +4,4 @@
    - name: check the roboshop user exits
      ansible.builtin.command: id roboshop
      register: user
-     ignore_error: true
+     ignore_errors: true
