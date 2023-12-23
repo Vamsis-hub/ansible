@@ -1,5 +1,6 @@
 - name: about conditions
   hosts: localhost
+  become: yes
   tasks:
    - name: check the roboshop user exits
      ansible.builtin.command: id roboshop
@@ -16,5 +17,5 @@
 
    -  name: create user
       ansible.builtin.user:
-       msg: roboshop
+       name: roboshop
       when: user.rc != 0
