@@ -3,10 +3,10 @@
   vars:
     NAME: Vamsi #key value
     Skills: #list type = -
-    -Devops
-    -Shell
-    -Ansible
-    -Linux
+    - Devops
+    - Shell
+    - Ansible
+    - Linux
     Experience: #this a map type
      Devops: 7
      Aws: 4
